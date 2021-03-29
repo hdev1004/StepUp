@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+.staggered-rise-in {
+  position: relative;
+  display: flex;
+  white-space: pre;
+  overflow: hidden;
+}
+.staggered-rise-in span {
+  transform: translateY(100%);
+  animation: rise-in 1s forwards;
+}
+@keyframes rise-in {
+  to {
+    transform: translateY(-8%);
+  }
+}

@@ -26,7 +26,7 @@ body {
   z-index: 10;
 }
 
-.CoverMainDog {
+.MainDogContainer {
   background-color: #baa5a5;
   position: absolute;
   width: 425px;
@@ -58,6 +58,44 @@ body {
   top: 85%;
 }
 
+.textContainer {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  top: 152px;
+  left: 670px;
+}
+.grayBar {
+  display: inline-block;
+  position: relative;
+  width: 34px;
+  height: 230px;
+  background: #969696 0% 0% no-repeat padding-box;
+
+  top: 35px;
+}
+
+.txtP {
+  margin: 0;
+  margin-bottom: 15px;
+  position: relative;
+  left: 60px;
+  top: -180px;
+}
+
+.txt1 {
+  font: normal normal normal 85px/99px Mongolian Baiti;
+  width: 580px;
+}
+.txt2 {
+  font: normal normal normal 20px/24px Constantia;
+  width: 500px;
+}
+.txt3 {
+  font: normal normal normal 30px/36px Dynalight;
+  width: 500x;
+}
+
 .footer {
   position: absolute;
   top: 100%;
@@ -65,4 +103,43 @@ body {
   height: 63px;
   margin-top: -63px;
   background: #d1d1d1 0% 0% no-repeat padding-box;
+}
+
+.boneContainer {
+  position: absolute;
+  width: 500px;
+  top: 750px;
+}
+
+.bone {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: -218px;
+  left: 130px;
+  transform: scale(0.5);
+  background-image: url("../images/bone.png");
+}
+
+.boneCatch {
+  position: absolute;
+  width: 270px;
+  height: 250px;
+  top: -100px;
+  left: 245px;
+  transform: scale(0.5);
+}
+
+.line {
+  position: absolute;
+  border-bottom: 1px solid black;
+  width: 2000px;
+  top: 28px;
+  left: 435px;
+}
+
+/**/
+@font-face {
+  font-family: "Marvin Visions Variable";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/MarvinVisionsTrial-Variable.ttf");
 }
