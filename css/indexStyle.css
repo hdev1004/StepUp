@@ -1,3 +1,4 @@
+
 body {
   width: 100%;
   height: 100%;
@@ -128,6 +129,8 @@ body {
   top: -100px;
   left: 245px;
   transform: scale(0.5);
+  user-select: none;
+  touch-action: none;
 }
 
 .line {
@@ -136,6 +139,17 @@ body {
   width: 2000px;
   top: 28px;
   left: 435px;
+}
+
+.slide {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  left: 100%;
+  background-color: #baa5a5;
+
 }
 
 /**/
